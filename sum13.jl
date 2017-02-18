@@ -7,11 +7,6 @@ for n in list
   total = n + total
 end
 
-#i = 1
-#while total > 10000000000
-#  total = total - mod(total, 10 * i)
-#  i = i + 1
-#end
 total_str = dec(total)[1:10]
 
 println(total_str)
