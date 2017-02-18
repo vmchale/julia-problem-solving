@@ -1,6 +1,6 @@
 ### Usage
 
-Please don't use to cheat on projecteuler. 
+Here mostly to show off.
 
 ### Julia Pre-Version
 
