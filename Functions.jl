@@ -1,4 +1,5 @@
 module Functions
+
 export digitSum
 export isPrime
 export kthpermutation
