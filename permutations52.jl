@@ -1,3 +1,4 @@
+## check if two ints are permutations of the same digits
 function is_permutation(m, n)
   m_str = dec(m)
   n_str = dec(n)

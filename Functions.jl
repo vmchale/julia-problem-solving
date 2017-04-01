@@ -1,3 +1,4 @@
+## Utility functions used in multiple solutions.
 module Functions
 
 export digitSum
@@ -26,6 +27,7 @@ function isPrime(n)
   start
 end
 
+## Returns the kth permutation in S_n as an integer
 function kthpermutation(k,n)
   tointeger(array(Permutation(n,k)))
 end
