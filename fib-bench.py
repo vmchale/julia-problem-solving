@@ -9,8 +9,6 @@ def fib(n):
 def first():
   return [ fib(n) for n in range(20)]
 
-#print(first())
-
 if __name__ == '__main__':
     sec = timeit.timeit("first()", setup="from __main__ import first", number=100000)
     print(sec * 10, " us")
